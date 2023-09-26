@@ -1,2 +1,45 @@
 
 /* Your CSS Code here. */
+.navbar{
+	background-image:linear-gradient(to right,red,yellow);
+	height:50px;
+}
+.navbar>ul{
+	display:flex;
+	list-style-type:none;
+	justify-content:space-between;
+	align-item:center;
+	
+	
+}
+.navbar>ul>li>a{
+	text-decoration:none;
+	color:black;
+}
+#home{
+	font-size:30px;
+	padding-top:8px;
+/
+}
+#about{
+	font-size:30px;
+	padding-top:8px;
+}
+#contact{
+	font-size:30px;
+	padding-top:8px;
+}
+
+.container{
+	display:flex;
+	flex-direction:column;
+	align-items:center;
+}
+.container h1,img{
+	padding:15px;
+}
+
+
+
+
+
